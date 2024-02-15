@@ -256,6 +256,7 @@ main {
 }
 .in-4-4-:nth-of-type(2n) span {
     background: rgb(48, 48, 48);
+    border: 2px solid rgb(204, 204, 204)
 }
 button {
     border: none;
