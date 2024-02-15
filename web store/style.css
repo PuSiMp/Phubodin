@@ -9,11 +9,12 @@ body{
 }
 nav{
     width: 80%;
-    height: 40px;
+    height: 10px;
     margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
 }
 .logo{
     width: 30%;
@@ -36,6 +37,11 @@ nav{
     justify-content: space-between;
 }
 .nav-menu li{
+    text-align: center;
+    width: 120px;
+    border: 1px solid rgb(238, 226, 211);
+    border-radius: 50px;
+    background-color: rgb(247, 241, 230);
     list-style: none;
     padding: 10px 15px;
     font-size: 20px;
